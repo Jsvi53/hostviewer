@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Debug",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/build/18_hostviewer.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}",
+            "environment": [
+                {
+                    "name": "Path",
+                    "value": "${env:Path}"
+                }
+            ],
+            "console": "integratedTerminal",
+            "visualizerFile": "c:\\Users\\28581_000\\AppData\\Roaming\\Code\\User\\workspaceStorage\\0109453399b7fa96e8c08f0b91ed8f65\\tonka3000.qtvsctools\\qt.natvis.xml"
+        }
+    ]
+}
